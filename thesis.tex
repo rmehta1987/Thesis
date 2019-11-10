@@ -1,9 +1,3 @@
-% ****************************************************************************************** % Dissertation template and document class for Princeton University
-% Author  : Jeffrey Scott Dwoskin <jdwoskin@princeton.edu>
-% Adapted from: http://www.math.princeton.edu/graduate/tex/puthesis.html
-% ****************************************************************************************** %
-
-
 %%% For print copies
 %% set 'singlespace' option to set entire thesis to single space, and define "\printmode" to remove all hyperlinks for printed copies of the thesis. Delete all output files before changing this mode -- it will turn hyperref package on and off
 %\documentclass[12pt,lot, lof, singlespace]{puthesis}
@@ -21,7 +15,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
 %%%% Author & title page info
 
-\title{A Synthesis of Cancerous Somatic Mutations and Lesions}
+\title{Inference of Somatic Mutations from Medical Images for Targeted Treatment}
 
 \submitted{December 2019}  % degree conferral date (January, April, June, September, or November)
 \copyrightyear{2019}  % year in which the copyright is secured by publication of the dissertation.
@@ -63,8 +57,8 @@ Prof. Yang Lu}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
 %%%% Use packages
-
-%\usepackage{amsfonts}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
 
 %%% For figures
 \usepackage{graphicx}
@@ -221,7 +215,7 @@ Prof. Yang Lu}
 
 \makefrontmatter
 
-%\include{mainmatter/deep_learning}
+\include{mainmatter/introduction}
 % If you've disabled frontmatter, you can insert the toc manually
 %\tableofcontents\clearpage
 
